@@ -14,8 +14,9 @@ app.get("/api", (req, res) => {
 		current_day: currentDay,
 		utc_time: utcTime,
 		track: track,
-		github_file_url: "https://github.com/username/repo/blob/main/file_name.ext",
-		github_repo_url: "https://github.com/username/repo",
+		github_file_url:
+			"https://github.com/dantheuri17/HNG-Backend/blob/main/Stage-One-Task/index.js",
+		github_repo_url: "https://github.com/dantheuri17/HNG-Backend",
 		status_code: 200,
 	};
 
