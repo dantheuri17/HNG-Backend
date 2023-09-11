@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 
 app.get("/api", (req, res) => {
 	const slackName = "DevTheuri";
-	const track = "Backend";
+	const track = "backend";
 	const currentDay = moment().format("dddd"); // Format the current day of the week
 	const utcTime = moment().utc().format("YYYY-MM-DDTHH:mm:ss[Z]"); // Format the current UTC time
 
